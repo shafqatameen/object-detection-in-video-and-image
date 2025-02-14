@@ -1,6 +1,4 @@
 
-README FOR THIS FILE
-/*************  ✨ Codeium Command 🌟  *************/
 from ultralytics import YOLO
 import cv2
 
