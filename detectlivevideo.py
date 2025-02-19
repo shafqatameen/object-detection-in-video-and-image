@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2 as cv
 import numpy as np
 
-model = YOLO("yolov8x.pt")
+model = YOLO("yolov8m.pt")
 cap = cv.VideoCapture(0)
 conf_threshold, iou_threshold = 0.5, 0.45
 
