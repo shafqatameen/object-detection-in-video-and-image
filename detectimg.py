@@ -1,6 +1,5 @@
 from ultralytics import YOLO
 import cv2 as cv
-import matplotlib.pyplot as plt
 
 # Load the pre-trained YOLOv8 model
 model = YOLO("yolov8s.pt")  # 'n' stands for nano (small and fast)
